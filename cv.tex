@@ -1,0 +1,420 @@
+%% Resume Template
+%% @author: Suyash Gupta
+
+\documentclass[10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{hyperref} 
+
+
+\usepackage{multicol}
+\setlength{\columnsep}{1cm}
+%\setlength{\tabcolsep}{25pt}
+
+\usepackage[bottom=0.8in,top=0.9in]{geometry}
+\geometry{a4paper}
+
+\title{\vspace*{-2cm} \raggedright {\bf Suyash Gupta}}
+\date{\vspace{-10ex}}	% removes date and its space
+
+\makeatletter
+\let\old@float\@float
+\def\@float{\let\centering\relax\old@float}
+\makeatother
+
+\newcommand*\itbox{\makebox[10cm][l]}
+ 
+\begin{document}
+%\begin{multicols}{2}
+%[
+
+
+%\vspace*{-5pt}
+%    {\let\newpage\relax\maketitle}
+
+\maketitle
+{\hspace{-0.9cm}
+\begin{tabular}{ll}
+Lab 2392, Academic Surge, University of California, Davis CA 95616 	& $\bullet$ \href{mailto:sugupta@ucdavis.edu}{sugupta@ucdavis.edu} \\ 
+\url{gupta-suyash.github.io} & $\bullet$ Phone No:\\
+Github: \url{https://github.com/gupta-suyash}  		& $\bullet$ Skype: gupta.suyash \\
+\end{tabular}\newline
+}
+%]
+
+\section*{EDUCATION}
+{\setlength{\tabcolsep}{40pt}
+\hspace{-1.5cm}
+\begin{tabular}{ll}
+{\bf University of California Davis} 		& Davis, CA 		\\
+Doctor of Philosophy				& Jan 2018 -- present 	\\
+(Transfer from Purdue)				&			\\
+GPA: 4.00/4.00					&			\\
+						&			\\
+{\bf Purdue University} 			& West Lafayette, IN 	\\
+Master of Science				& Aug 2015 -- Dec 2017 	\\
+GPA: 3.83/4.00					&			\\
+						&			\\
+{\bf Indian Institute of Technology Madras}	& Chennai, India	\\
+Master of Science (Research)			& Jan 2012 -- May 2015 	\\
+GPA: 8.57/10.00					&			\\
+						&			\\
+{\bf GGSIP University}				& New Delhi, India	\\ 
+Bachelor of Technology				& Aug 2007 -- May 2011	\\
+GPA: 82.15/100					&			\\
+\end{tabular}}
+
+
+
+\section*{WORK EXPERIENCE}
+
+\begin{itemize}
+  \itemsep-0.2em
+  \item \itbox{\bf Research Assistant, University of California, Davis} 	\itbox{Jan 2018 -- present}
+  \begin{itemize}
+    \vspace{-0.2cm}
+    %\itemsep-0.5em
+    \item Project – Efficient Agreement Protocols
+    	\vspace{-0.1cm}
+    	\begin{itemize}
+    	  \itemsep-0.1em
+    	  \item Design of two-phase non-blocking atomic commitment protocol.
+    	  \item Design of topology-aware commitment protocol for geographically distant nodes.
+    	\end{itemize}
+    
+    
+    \item Project – Efficient Consensus Protocols and Resilient Architectures
+    	\vspace{-0.1cm}
+    	\begin{itemize}
+    	  \itemsep-0.1em
+    	  \item Design of a speculative two-phase byzantine fault-tolerant consensus protocol.
+    	  \item Design of parallel and wait-free byzantine fault-tolerant consensus protocol. 
+	  \item Design of global-scale byzantine fault-tolerant consensus protocol.
+	  \item Design and analysis of high-throughput yielding permissioned blockchains.
+	  \item Design of secure and fault-tolerant serverless architectures.
+	  \item Design of efficient byzantine fault-tolerant consensus protocols using RDMA.
+    	\end{itemize}
+  \end{itemize}
+  \item \itbox{\bf Research Intern, Novi (Libra/Facebook)} 			\itbox{June 2020 -- Sep 2020}
+  \begin{itemize}
+    \vspace{-0.2cm}
+    %\itemsep-0.5em
+    \item Automatic Profiling of Libra Framework
+    	\vspace{-0.1cm}
+    	\begin{itemize}
+    	  \itemsep-0.1em
+	  \item First work to automatically profile a blockchain system.
+    	  \item Integrating Coz profiler [SOSP'15] with Libra framework.
+	  \item Bug detection during Libra compile time.
+    	\end{itemize}
+    
+    \item Analyzing Bottlenecks in Libra Framework
+    	\vspace{-0.1cm}
+    	\begin{itemize}
+    	  \itemsep-0.1em
+    	  \item Discovered performance bottlenecks in Libra's implementation of Patricia-Merkle Tries used to store user data.
+	  \item Found optimal place to parallelize Libra VM and Executor.
+	  \item Detected performance bottleneck in Libra VM's prologue. 
+	  \item Trace analysis and annotation of Libra VM's load modules and resources.
+    	\end{itemize}
+  \end{itemize}
+
+  \item \itbox{\bf Lead Architect, MokaBlox (Startup)} 				\itbox{Nov 2019 -- present}
+  \begin{itemize}
+    \vspace{-0.2cm}
+    \item Design and Maintenance of ResilientDB Permissioned Blockchain Fabric.
+  \end{itemize} 
+
+  \item \itbox{\bf Teaching Assistant, Purdue University} 			\itbox{Aug 2017 -- Dec 2017}
+  \item \itbox{\bf Research Assistant, Purdue University} 			\itbox{Aug 2015 -- Aug 2017}
+  \begin{itemize}
+    \vspace{-0.2cm}
+    %\itemsep-0.5em
+    \item Project – Probabilistic Test Data Generation
+    	\vspace{-0.1cm}
+    	\begin{itemize}
+    	  \itemsep-0.1em
+    	  \item Design of probabilistic test data generators that sample 
+    	  	test inputs from various distributions such as Uniform, Binomial and Gaussian.
+    	  \item Extension of probabilistic test data generators implementation to recursive types such as lists and trees.
+    	\end{itemize}
+    
+    
+    \item Project – Programming paradigms for distributed databases
+    	\vspace{-0.1cm}
+    	\begin{itemize}
+    	  \itemsep-0.1em
+    	  \item Development of a DSL in Ruby on Rails that implements users view of consistency.
+    	  \item Implementation of a parser in Haskell that parses database SQL queries.
+    	\end{itemize}
+  \end{itemize}
+
+  \item \itbox{\bf Intern, IBM India Research lab, New Delhi}			\itbox{Feb 2015 -- Apr 2015}
+  \vspace{-0.6cm}
+  \begin{itemize}
+    \item Project -- Multithreaded Analysis of Java Programs
+	\vspace{-0.2cm}
+	\begin{itemize}
+	  \itemsep-0.2em
+	  \item Study of a novel parallel escape analysis and pointer analysis algorithm.
+	  \item Testing of a novel Java decompilation strategy.
+	  \item Analysis of a novel Slicing algorithm.	
+	\end{itemize}
+  \end{itemize}
+
+  \item \itbox{\bf Project Associate, IIT Madras}			\itbox{Jan 2014 -- Dec 2014}
+  \vspace{-0.6cm}
+  \begin{itemize}
+    \item Project – Optimizing parallel programs for multicore systems.
+	\vspace{-0.1cm}
+	\begin{itemize}
+	  \itemsep-0.1em
+	  \item Design of two novel task parallel optimizations for reduction of
+	  	task creation and task termination operations.
+	  \item Implementation of the two novel optimizations in X10 compiler.
+	  \item Analyzing the impact of proposed optimizations on the energy consumption.
+	\end{itemize}
+  \end{itemize}
+
+  \item \itbox{\bf Teaching Assistant, IIT Madras}			\itbox{Jan 2012 –- Dec 2013}
+
+  \item \itbox{\bf Intern, Bharat Heavy Electical Limited}		\itbox{Jun 2010 – July 2010}
+
+
+\end{itemize}
+
+
+
+\section*{PUBLICATIONS}
+\subsection*{Books}
+\begin{itemize}
+\itemsep-0.2em
+
+\item {\bf S. Gupta}, J. Hellings and M. Sadoghi, {\em Fault-tolerant Distributed Transactions on Blockchain}, Morgan $\&$ Claypool Synthesis Lectures on Data Management (to appear), 2020.
+
+\end{itemize}
+
+
+\subsection*{Conferences}
+\begin{itemize}
+\itemsep-0.2em
+
+\item {\bf S. Gupta}, J. Hellings and M. Sadoghi, {\em RCC: Resilient Concurrent Consensus for High-Throughput Secure Transaction Processing}, To appear in 37th IEEE International Conference on Data Engineering (ICDE). 2021.
+
+\item {\bf S. Gupta}, S. Rahnama and M. Sadoghi, {\em Permissioned Blockchain Through the Looking Glass: Architectural and Implementation Lessons Learned}, In 40th IEEE International Conference on Distributed Computing Systems (ICDCS). 2020.
+
+\item {\bf S. Gupta}, S. Rahnama, J. Hellings and M. Sadoghi, {\em ResilientDB: Global Scale Resilient Blockchain Fabric}, In 46th International Conference on Very Large Databases (VLDB). 2020 --- {\bf \em Artifact Evaluated}.
+
+\item T. Qadah, {\bf S. Gupta} and M. Sadoghi, {\em Q-Store: Distributed, Multi-partition Transactions via Queue-oriented Execution and Communication}. In 23rd International Conference of Extending Database Technology (EDBT), 2020.
+
+\item {\bf S. Gupta}, J. Hellings and M. Sadoghi, {\em Brief Announcement: Revisiting Consensus Protocols through Wait-free Parallelization}, In 33rd International Symposium on Distributed Computing (DISC). 2019.
+
+\item {\bf S. Gupta} and M. Sadoghi, {\em EasyCommit: A Non-blocking Two-phase Commit Protocol}, In 21st International Conference of Extending Database Technology (EDBT), 2018.
+
+\item {\bf S. Gupta}, R. Shrivastava, and V. K. Nandivada, {\em Optimizing Recursive Task Parallel Programs}, In 31st International Conference on Supercomputing (ICS), 2017.
+\end{itemize}
+
+
+\subsection*{Journals}
+\begin{itemize}
+\itemsep-0.2em
+
+\item {\bf S. Gupta} and M. Sadoghi, {\em Efficient and non-blocking agreement protocols}, Distributed and Parallel Database (DAPD), 2019.
+
+\item {\bf S. Gupta} and V. K. Nandivada, {\em IMSuite: A Benchmark Suite for Simulating Distributed Algorithms}, Journal of Parallel and Distributed Computing (JPDC), Elsevier, 2015.
+\end{itemize}
+
+\subsection*{Selected Articles}
+\begin{itemize}
+\itemsep-0.2em
+
+\item {\bf S. Gupta}, {\em Resilient and Scalable Architecture for Permissioned Blockchain Fabrics}, PhD Workshop, 
+In 46th International Conference on Very Large Databases (VLDB), 2020.
+
+\item {\bf S. Gupta}, J. Hellings, T. Qadah, S. Rahnama and M. Sadoghi, {\em Efficient Transaction Processing in Byzantine Fault Tolerant Environments}, In International Workshop on High Performance Transaction Systems (HPTS), 2019 -- A Biennial Workshop.
+
+\item {\bf S. Gupta} and M. Sadoghi, {\em Blockchain Transaction Processing}, In Encyclopedia of Big Data Technologies. Springer, Cham, 2018.
+\end{itemize}
+
+
+\subsection*{Tutorials}
+\begin{itemize}
+\itemsep-0.2em
+
+\item {\bf S. Gupta}, J. Hellings, S. Rahnama and M. Sadoghi,{\em Building High Throughput Permissioned Blockchain Fabrics: Challenges and Opportunities}, In 46th International Conference on Very Large Databases (VLDB), 2020.
+
+\item {\bf S. Gupta}, J. Hellings, S. Rahnama and M. Sadoghi, {\em Blockchain consensus unraveled: Virtues and Limitations}, In 14th ACM International Conference on Distributed and Event-Based Systems (DEBS), 2020.
+
+\item {\bf S. Gupta}, J. Hellings, S. Rahnama and M. Sadoghi, {\em An In-Depth Look of BFT Consensus in Blockchain: Challenges and Opportunities}, Middleware Tutorials, 2019.
+\end{itemize}
+
+
+\subsection*{Demonstrations}
+\begin{itemize}
+\itemsep-0.2em
+
+\item S. Rahnama, {\bf S. Gupta}, T. Qadah, J. Hellings and M. Sadoghi, {\em Scalable, Resilient and Configurable Permissioned Blockchain Fabric}, In 46th International Conference on Very Large Databases (VLDB), 2020.
+
+\end{itemize}
+
+\subsection*{Pre-Prints (Under Submission)}
+\begin{itemize}
+\itemsep-0.2em
+\item {\bf S. Gupta}, J. Hellings and M. Sadoghi, {\em Proof-of-Execution: Reaching Consensus through Fault-Tolerant Speculation}, available on Arxiv, 2019.
+\end{itemize}
+
+
+\section*{OTHER RESOURCES}
+\begin{itemize}
+\itemsep-0.2em
+
+\item ResilientDB Fabric, available online at \url{https://resilientdb.com/}. Source code is available at \url{https://github.com/resilientdb/resilientdb} and has been forked/starred more than $60$ times.
+
+\item IMSuite benchmark, available online at \url{http://www.cse.iitm.ac.in/~krishna/imsuite} and has been downloaded over $5000$ times and well-cited.
+
+\item DistCheck, a Litmus Testing tool, available online at \url{https://github.com/gupta-suyash/DistCheck}.
+
+\end{itemize}
+
+
+
+\section*{AWARDS \& HONORS}
+\begin{itemize}
+\itemsep-0.2em
+\item Student Grant from VLDB Endowment for participation in VLDB 2020.
+\item Student Travel Grants from Middleware 2019.
+\item GGCS Travel Award 2019 from UC Davis to attend HPTS 2019.
+\item Scholarship to attend VMW/CAV 2017 at Heidelberg, Germany, 23 -- 28 July 2017.
+\item Travel grant to present work at ICS 2017 at Chicago, IL, 14 -- 16th June 2017. 
+\item Attended OPLSS'16 at Eugene, OR, 19th June 2016 – 2nd July 2016.
+\item Best Use of Data Visualization, Best Mobile App, Most Launchable product sponsored by Dorm Room Fund and PrincetonPy/PICSciE Prize at HackPrinceton 2016.
+\item First Prize at HackIllinois 2016 (Best Software Hack), and 
+Best use of Microsoft Technology award – 19-21st February 2016.
+\item First at Purdue University and finalist entry to Windward Code Wars Spring 2016.
+\item Qualified for Semi-finals at Microsoft Imagine Cup Spring 2016.
+\item First Prize at Boston Hacks 2015 – 31st Oct – 1st Nov 2015.
+\item Scholarship to attend POPL/PLMW, at Munbai, India, 12 -- 18 Jan 2015.
+\item Outstanding Teaching Assistant Award for courses: CS3310 (Aug 12), CS6848 (Jan 13).
+\item Scholarship from MHRD, Government of India, for qualifying All India Graduate
+Aptitude Test in Engineering (GATE) and securing admission at IIT Madras.
+\item 1st prize, Inter College project competition, 2011, organized by GGSIPU and Delhi
+Knowledge Development Foundation
+\item 2nd prize, Technical Paper Presentation, 2011, organized in association of Computer
+Society of India (CSI) at Jamia Millia Islamia.
+\item 2nd prize at C/C++ programming at Info Expression 2009.
+\end{itemize}
+
+
+
+%
+%
+%\section*{SKILLS}
+%\begin{tabular}{ll}
+%Languages:	&	 C, C++, Java, OCaml, Clojure, Haskell, Ruby, X10, Cilk, Rails, Python	\\
+%Web Technology:	&	 HTML, CSS, PHP								\\
+%Database:	&	 Mysql, PostgreSQL, Sequel, Oracle 9i					\\
+%Worked on:	&	 8086, 8051, Arm Cortex A8, Beagle Board				\\
+%\end{tabular}
+
+
+%\section*{ACADEMIC PROJECTS}
+%\begin{itemize}
+%\itemsep-0.2em
+%\item \itbox{Development of Three Phase Commit Protocol:} 		\itbox{Feb –- Apr 2016}
+%\item \itbox{Extension of XINU Operating System:} 			\itbox{Aug –- Dec 2015}
+%\item \itbox{Development of Parallel Pagerank algorithm using techniques}
+%\item[] \itbox{such as Matrix-Vector multiplication and Random Walk:}	\itbox{Aug –- Dec 2015}
+%\item \itbox{Implementation of Feedback-Directed Prefetcher:} 		\itbox{Aug –- Nov 2012}		
+%\item \itbox{Design of Mini-java compiler:} 				\itbox{Aug –- Nov 2012}		
+%\item \itbox{Design of Super scalar processor using VHDL:} 		\itbox{Jan –- Apr 2012}		
+%\item \itbox{Reaching Agreement in Network with Curious Nodes:} 	\itbox{Jan –- Apr 2012}
+%\item \itbox{Design of Micro-java Interpreter:}	 			\itbox{Jan –- Apr 2012}
+%\end{itemize}
+
+
+\section*{SEMINARS / TALKS}
+\begin{itemize}
+\itemsep-0.2em
+\item {\em RCC: Resilient Concurrent Consensus for High-Throughput Secure Transaction Processing} at Novi Intern Seminars on 08/17/2020.
+\item {\em ResilientDB: Global Scale Resilient Blockchain Fabric} at VLDB'20 on 09/01/2020 and 09/03/2020 (recorded video).
+\item {\em Building High Throughput Permissioned Blockchain Fabrics: Challenges and Opportunities} at VLDB'20 on 09/01/2020 (recorded video).
+\item {\em Resilient and Scalable Architecture for Permissioned Blockchain Fabrics} at PhD Workshop, VLDB'20 on 08/31/2020 (recorded video).
+\item {\em Blockchain consensus unraveled: Virtues and Limitations} at DEBS'20 on 07/14/2020.
+\item {\em An In-Depth Look of BFT Consensus in Blockchain: Challenges and Opportunities} at REIMAGINE v1.0 on 12/10/2019.
+\item {\em ResilientDB: Global Scale Resilient Blockchain Fabric} at FAB'20 on 05/01/2020 (recorded video).
+\item {\em Permissioned Blockchain Through the Looking Glass: Architectural and Implementation Lessons Learned} at FAB'20 on 05/01/2020 (recorded video).
+\item {\em An In-Depth Look of BFT Consensus in Blockchain: Challenges and Opportunities} at Middleware on 12/10/2019.
+\item {\em EasyCommit: A non-blocking two-phase commit protocol} at EDBT'18 on 03/29/2018.
+\item {\em Optimizing recursive task parallel programs} at ICS'17 on 06/14/2017.
+\item {\em IMSuite: A benchmark suite for simulating distributed algorithms} at Purdue University on 09/15/2016.
+\item {\em Analyzing Recursive Task Parallel Programs} at Indian Institute of Technology Madras on 10/16/2014.
+\end{itemize}
+
+
+\section*{SERVICES}
+\begin{itemize}
+\itemsep-0.2em
+\item Reviewer, ICDCS 2021
+\item pVLDB Reproducibility 2019 -- present
+\item Reviewer, SIGMOD Record 2019
+\item Web Chair, Middleware 2019.
+\item Volunteer, VLDB 2019.
+\item External Reviewer, EDBT 2018.
+\item External Reviewer, Middleware 2018.
+\end{itemize}
+
+
+\section*{MENTORING}
+\begin{itemize}
+\itemsep-0.2em
+\item Alex Su, B.Sc, UC Davis (Summer 2020 - ongoing)
+	\begin{itemize}\vspace{-2mm}
+	\item Project: Byzantine Resilient Serverless Framework.
+	\end{itemize}
+\item Shubham Pandey, MS, UC Davis (Summer 2020 - ongoing)
+	\begin{itemize}\vspace{-2mm}
+	\item Project: Efficient Byzantine Consensus using RDMA.
+	\end{itemize}
+\item Erik Linsenmayer, B.Sc, UC Davis (Spring 2020 - ongoing)
+	\begin{itemize}\vspace{-2mm}
+	\item Project: Byzantine Resilient Serverless Framework.
+	\end{itemize}
+\item Rohan Sogani, MS, UC Davis (Winter 2020 - ongoing)
+	\begin{itemize}\vspace{-2mm}
+	\item Project: Efficient Byzantine Fault-Tolerant consensus through Sharding.
+	\end{itemize}
+\item Priya Holani, MS, UC Davis (Winter 2020 - Summer 2020)
+	\begin{itemize}\vspace{-2mm}
+	\item Project: Efficient Byzantine Fault-Tolerant consensus through Sharding.
+	\end{itemize}
+\item Dhruv Krishnan, MS, UC Davis (Winter 2020 - Summer 2020)
+	\begin{itemize}\vspace{-2mm}
+	\item Project: Efficient Byzantine Fault-Tolerant consensus through Sharding.
+	\end{itemize}
+\item Xinyuan Sun, B.Sc, UC Davis (Winter 2020 - Summer 2020)
+	\begin{itemize}\vspace{-2mm}
+	\item Project: Efficient Byzantine Consensus using RDMA.
+	\end{itemize}
+\item Federico Mengozzi, B.Sc, UC Davis (Fall 2018 - Fall 2019) -- Now at Carsbarter, Murcia 
+	\begin{itemize}\vspace{-2mm}
+	\item Project: Smart Contracts support in ResilientDB.
+	\end{itemize}
+\item Shreenath Iyer, MS, UC Davis (2018-2019) -- Now at Amazon, Seattle 
+	\begin{itemize}\vspace{-2mm}
+	\item Project: Data Visualization Support for ResilientDB Fabric.
+	\end{itemize}
+\item Romen Rubero, B.Sc, UC Davis (Fall 2018 - Spring 2019) -- Now at Carsbarter, Murcia
+	\begin{itemize}\vspace{-2mm}
+	\item Project: Crypto Profiling/Benchmarking in ResilientDB Fabric.
+	\end{itemize}
+\item Patrick J. Liao, B.Sc, UC Davis (Winter 2018 - Fall 2018) -- Now at Juniper Technology, Bay Area 
+	\begin{itemize}\vspace{-2mm}
+	\item Project: Robust Byzantine Fault-Tolerant Protocols in ResilientDB.
+	\end{itemize}
+\item Domenic Cianfichi, MS, UC Davis (Winter 2018 - Summer 2018)
+	\begin{itemize}\vspace{-2mm}
+	\item Project: Fault-tolerant Consensus Protocols in ResilientDB.
+	\end{itemize}
+\end{itemize}
+
+\end{document}
